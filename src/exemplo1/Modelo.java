@@ -14,7 +14,6 @@ public class Modelo {
         this.nome = nome;
         this.marca = marca;
     }
-
    
     public int getId() {
         return id;

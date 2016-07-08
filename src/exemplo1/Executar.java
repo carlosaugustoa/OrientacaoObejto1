@@ -9,6 +9,7 @@ public class Executar {
     Marca marca = new Marca(1,"Honda");
     Modelo modelo = new Modelo(1,"Civic",marca);
     Carro carro = new Carro(1, modelo, "XYS-2040", 2010,22000);
+    
     System.out.println(carro);    
         
         
@@ -38,7 +39,7 @@ public class Executar {
 //        
 //        //System.out.println(carro);
 //        System.out.println(carro.toString());
-    
+//    
     
     
     }

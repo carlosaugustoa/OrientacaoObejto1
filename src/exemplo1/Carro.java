@@ -19,16 +19,16 @@ public class Carro {
         
     }
 
-//    @Override
-//    public String toString() {
-//        return "Carro:\n"
-//                + "id=" + this.id + ":"
-//                + "\nModelo: " + this.modelo.getNome()
-//                + "\nMarca: " + this.modelo.getMarca().getNome()
-//                + "\nAno: " + this.ano
-//                + "\nKM: " + this.km
-//                + "\nPlaca: " + this.placa;
-//    }
+    @Override
+    public String toString() {
+        return "Carro:\n"
+                + "id=" + this.id + ":"
+                + "\nModelo: " + this.modelo.getNome()
+                + "\nMarca: " + this.modelo.getMarca().getNome()
+                + "\nAno: " + this.ano
+                + "\nKM: " + this.km
+                + "\nPlaca: " + this.placa;
+    }
   
     public int getKm(){
         return this.km;
